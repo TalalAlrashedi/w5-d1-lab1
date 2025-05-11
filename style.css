@@ -1,0 +1,16 @@
+.container{
+    /* background-color: beige; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#cards{
+    background-color: red;
+    height: 30vh;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
