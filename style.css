@@ -1,16 +1,30 @@
-.container{
-    /* background-color: beige; */
-    display: flex;
-    justify-content: center;
-    align-items: center;
 
-}
-
-#cards{
-    background-color: red;
-    height: 30vh;
-    width: 30%;
+#container {
     display: flex;
-    justify-content: center;
-    align-content: center;
-}
+    flex-wrap: wrap;
+    gap: 2%;
+    justify-content: center; 
+    padding: 2%;
+  }
+  
+  .cards {
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden; 
+    width: 200px;
+    text-align: center;
+  }
+  
+  .card img {
+    width: 100%;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+  }
+  
+  .card h3 {
+    padding: 10px;
+    margin: 0;
+    font-size: 1.2em;
+    color: #333;
+  }
